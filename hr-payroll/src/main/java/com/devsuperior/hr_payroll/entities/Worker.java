@@ -7,10 +7,7 @@ public class Worker implements Serializable{
 
     private Long id;
     private String name;
-    private Double dailyIncome;
-
-    public Worker(){
-    }  
+    private Double dailyIncome; 
 
     public Worker(Long id, String name, Double dailyIncome){
         super();
