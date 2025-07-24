@@ -12,7 +12,7 @@
 	<artifactId>hr-oauth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hr-oauth</name>
-	<description>Authorization Server</description>
+	<description>Authorization Server</description> s
 	<url/> 
 	<licenses>
 		<license/>
@@ -52,6 +52,14 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-oauth2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
